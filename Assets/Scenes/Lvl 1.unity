@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a0fa31d6990e642a0bfaeac361b853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 1.5
+  _force: 150
   _control: {fileID: 1295994778}
 --- !u!95 &316203266
 Animator:
@@ -4459,7 +4459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed21032bfe376b4fb16ee05080c649b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 1.5
+  _force: 150
   _control: {fileID: 2119177653}
 --- !u!95 &1399047347
 Animator:
@@ -16990,6 +16990,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -4.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477978888852125905, guid: 9d83fe01504454842aa97dc6a8c92a73,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d83fe01504454842aa97dc6a8c92a73, type: 3}

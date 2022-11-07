@@ -34,7 +34,7 @@ public class LeftStick : MonoBehaviour
     {
         if (_control.IsPunch && _onStick)
         {
-            _balls?.AddForce(new Vector2(0.5f, 1) * _force, ForceMode.Impulse);
+            _balls?.AddForce(new Vector2(0.5f, 1) * _force * Time.deltaTime, ForceMode.Impulse);
         }
     }
 }
